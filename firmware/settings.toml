@@ -1,0 +1,12 @@
+# Configuración de NanyBoard (CircuitPython lee este archivo con os.getenv)
+# Copiar a la raíz de la IdeaBoard (unidad CIRCUITPY) junto a code.py
+
+CIRCUITPY_WIFI_SSID = "NOMBRE_DE_TU_WIFI"
+CIRCUITPY_WIFI_PASSWORD = "CLAVE_DE_TU_WIFI"
+
+# Broker MQTT público para el prototipo (no usar para datos reales)
+MQTT_BROKER = "broker.hivemq.com"
+MQTT_PORT = 1883
+
+# Identificador único del peluche (cámbienlo para no chocar con otros grupos)
+DEVICE_ID = "nanyboard-grupo1"
